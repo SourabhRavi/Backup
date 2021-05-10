@@ -1,0 +1,222 @@
+* {
+    padding: 0;
+    margin: auto 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    color: #121212;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 20px 30px 10px;
+}
+
+h1 {
+    font-size: 18px;
+}
+
+/* //////////////////////////////////////////////////////// */
+/* Shadow */
+.shadow {
+    -webkit-box-shadow: 0 1px 2px -1px #777;
+    box-shadow: 0 1px 2px -1px #777;
+}
+
+/* //////////////////////////////////////////////////////// */
+/* Add Note Button */
+#addNote {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 20px;
+    right: 60px;
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+    background-color: #4666FF;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+/* //////////////////////////////////////////////////////// */
+/* Navbar */
+#navbar {
+    padding: 10px 30px;
+}
+
+#navbar,
+#navItems {
+    display: flex;
+}
+
+ul {
+    list-style: none;
+}
+
+#navItems li {
+    padding: 0 20px;
+}
+
+#logo {
+    flex-basis: 30%;
+    display: flex;
+}
+
+#logo img {
+    height: 50px;
+    width: 50px;
+    padding-right: 10px;
+}
+
+#logo h1 {
+    font-weight: 600;
+    color: #4666FF;
+}
+
+#navItems {
+    flex-basis: 40%;
+    justify-content: center;
+    align-items: center;
+}
+
+.signature {
+    display: flex;
+    flex-basis: 30%;
+    justify-content: flex-end;
+    font-size: 12px;
+}
+
+.signature a {
+    padding: 0 5px;
+    font-size: 16px;
+    color: #4666FF;
+}
+
+/* //////////////////////////////////////////////////////// */
+/* Search Notes */
+#search {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+#search input {
+    box-sizing: border-box;
+    padding: 0 40px 0 20px;
+    height: 50px;
+    width: 40vw;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    background-color: #e6e6e6;
+}
+
+#search input:focus {
+    border: 1px solid #bebebe;
+    background-color: #fff;
+
+}
+
+.searchIcon {
+    position: relative;
+    right: 35px;
+    color: #bebebe;
+}
+
+/* //////////////////////////////////////////////////////// */
+/* Filter Menu */
+
+.filterMenu {
+    display: flex;
+    margin: 0 30px;
+}
+
+/* Notes Identifier */
+.notesIdentifier {
+    display: flex;
+    flex-basis: 50%;
+}
+
+.notesIdentifier h1 {
+    font-weight: 400;
+    font-size: 16px;
+    border-radius: 30px;
+    padding: 5px 10px;
+    margin-right: 5px;
+}
+
+.active {
+    border: 1px solid #bebebe;
+}
+
+.inactive {
+    background-color: #e6e6e6;
+    color: #777;
+    border: none;
+}
+
+/* Sort by */
+.sort {
+    flex-basis: 50%;
+    text-align: end;
+    font-weight: 400;
+}
+
+#sortMenu {
+    outline: none;
+    font-size: 16px;
+    border: 1px solid #bebebe;
+    background-color: #fff;
+    padding: 5px 10px;
+}
+
+/* //////////////////////////////////////////////////////// */
+/* Notes Cards */
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 20px 20px;
+}
+
+.card h1 {
+    font-weight: 500;
+}
+
+.card {
+    border-radius: 6px;
+    background-color: #EDFF86;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* //////////////////////////////////////////////////////// */
+/* Footer */
+
+footer {
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+}
+
+footer p {
+    font-size: 12px;
+}
+
+footer i {
+    font-size: 20px;
+    padding: 20px 20px 10px;
+}
+
+footer i:hover {
+    color: #EE4266;
+}
+
+footer i:active {
+    color: #E01541;
+}
+
+/* //////////////////////////////////////////////////////// */
+/* Add new note box */
